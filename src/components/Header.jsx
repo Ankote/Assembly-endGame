@@ -1,6 +1,6 @@
 
 import '../style/Header.css'
-export default()=>{
+export default(props)=>{
 
     return(
         <header>

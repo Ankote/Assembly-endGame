@@ -5,8 +5,7 @@ export default(props)=>{
         backgroundColor: props.backgroundColor,
         color: props.color
     }
-
     return(
-        <span className="chip" style={style}>{props.name}</span>
+        <span className={props.className} style={style}>{props.name}</span>
     )
 }

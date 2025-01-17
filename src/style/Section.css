@@ -4,6 +4,8 @@ section.game-status {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    max-width: 350px;
     color: #F9F4DA;
     border-radius: 4px;
     margin-block: 30px; /*this means margin top and margin bottom*/
@@ -70,4 +72,20 @@ section.keyboard> button{
     border-radius: 5px;
     cursor: pointer;
 
+}
+
+section.keyboard> .correct{
+    background-color: #10A95B;
+}
+
+section.keyboard>  .wrong{
+    background-color: red;
+}
+
+section.game-status.won{
+    background-color: #10A95B;
+}
+
+section.game-status.lost{
+    background-color: #BA2A2A;
 }
